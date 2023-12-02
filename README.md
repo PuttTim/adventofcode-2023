@@ -4,9 +4,9 @@ This is a TypeScript boilerplate for Advent of Code.
 
 built with ❤️ and:
 
-- [typescript](https://www.typescriptlang.org/) 👨‍💻
-- [vitest](https://vitest.dev/) 🧪
-- [bun](https://bun.sh/) 🧅
+-   [typescript](https://www.typescriptlang.org/) 👨‍💻
+-   [vitest](https://vitest.dev/) 🧪
+-   [bun](https://bun.sh/) 🧅
 
 ## 👷‍♂️ Project structure
 
@@ -36,27 +36,27 @@ replace `{day}` with the number of the advent day, i.e. `pnpm init-day 2`.
 
 This command will create a new directory in the `days` folder with the following content
 
-- `Puzzle.ts`: the boilerplate module with the placeholder methods for solving both daily puzzles
-- `index.txt`: the input file where to add the puzzle input
+-   `Puzzle.ts`: the boilerplate module with the placeholder methods for solving both daily puzzles
+-   `index.txt`: the input file where to add the puzzle input
 
 The structure of the boilerplate module is the following:
 
 ```typescript
 const first = (input: string) => {
-  console.log(input);
-  return 'solution 1';
-};
+    console.log(input)
+    return "solution 1"
+}
 
-const expectedFirstSolution = 'solution 1';
+const expectedFirstSolution = "solution 1"
 
 const second = (input: string) => {
-  console.log(input);
-  return 'solution 2';
-};
+    console.log(input)
+    return "solution 2"
+}
 
-const expectedSecondSolution = 'solution 2';
+const expectedSecondSolution = "solution 2"
 
-export { first, expectedFirstSolution, second, expectedSecondSolution };
+export { first, expectedFirstSolution, second, expectedSecondSolution }
 ```
 
 ## 🔧 Development
